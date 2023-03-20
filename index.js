@@ -1,4 +1,4 @@
-
+/*
                 // IF STATEMENT
 
 let firstName = prompt("please enter your first name");
@@ -110,3 +110,35 @@ else if(Number2 > Number1 && Number2 > Number3){
 else if (Number3 > Number1 && Number3 > Number2){
       alert(Number3);
   }
+  else{
+    alert("INVALID")
+  }
+  */
+
+          //  ENSURE THE PASSWORD HAS 10+ CHARACTERS
+// {
+//           let password = prompt("Enter your password");
+
+//           if(password.length < 10){
+//             alert("password shoul be 10 charaters and above");
+//           }
+//           else{
+//             alert("strong password")
+//           }
+
+// }
+
+{
+  
+ let email = prompt("Enter your email");
+ let lowercase = email.toLocaleLowerCase();
+ let extention = email.lowercase.indexOf(".com")
+   
+   if(extention >= 1){
+   alert("Valid Email");
+   }
+   else if(extention < 0){
+    alert("Invaild email");
+   }
+
+}
