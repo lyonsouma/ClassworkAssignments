@@ -45,7 +45,9 @@ let avarage = (sum/3)
       else{
         alert("you scored an Failed")
       }
+*/
 
+/*
 
 
     //    SWITCH STATEMENT
@@ -59,7 +61,9 @@ let avarage = (sum/3)
      console.log("you're 18")
      break;
      }
-     
+     */
+
+     /*
 
               // MATHEMATICS CHALLANGE
 
@@ -93,7 +97,9 @@ else{
     alert("this isn't an amount")
 }
 
+*/
 
+/*
 
          // TAKE IN THREE INPUTS AND DISPLAY THE MAXIMUM
 
@@ -113,26 +119,28 @@ else if (Number3 > Number1 && Number3 > Number2){
   else{
     alert("INVALID")
   }
-  */
+*/
 
+
+/*
           //  ENSURE THE PASSWORD HAS 10+ CHARACTERS
-// {
-//           let password = prompt("Enter your password");
+{
+          let password = prompt("Enter your password");
 
-//           if(password.length < 10){
-//             alert("password shoul be 10 charaters and above");
-//           }
-//           else{
-//             alert("strong password")
-//           }
+          if(password.length < 10){
+            alert("password shoul be 10 charaters and above");
+          }
+          else{
+            alert("strong password")
+          }
 
-// }
+}
 
 {
   
  let email = prompt("Enter your email");
  let lowercase = email.toLocaleLowerCase();
- let extention = email.lowercase.indexOf(".com")
+ let extention = lowercase.indexOf(".com")
    
    if(extention >= 1){
    alert("Valid Email");
@@ -142,3 +150,33 @@ else if (Number3 > Number1 && Number3 > Number2){
    }
 
 }
+
+*/
+
+/*
+              LOOPS
+     for loop
+     for(let i = 1; i <= 10; i++){
+          console.log(i);
+     }
+*/
+
+ /*    while loop
+
+  let i = 1;
+    while(i <= 5){
+      console.log(i);
+      i++
+    }
+    */
+
+
+     
+        // DO WHILE
+
+    //     let i = 1;
+    // do {
+    //   console.log(i);
+    //   i++;
+      
+    // } while (i <= 5);
