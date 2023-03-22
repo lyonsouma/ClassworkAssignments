@@ -8,7 +8,7 @@
 //   }
 //   }
 
-
+/*
         // FIZZBUZZ CHALLANGE
 for(let i=1; i<=50; i++){
   if(i%3 == 0 && i%5 == 0){
@@ -24,4 +24,23 @@ for(let i=1; i<=50; i++){
     console.log(i)
   }
 }
+*/
+/*
+              //  BREAK AND CONTINUE
 
+
+   for(let i= 0; i<=10; i++){
+     if(i ===3 || i ===5){
+         continue;
+     }
+     console.log(i);
+   }
+*/
+
+      /*
+          // PRINT FROM 10 To 1
+
+       for(let i= 10; i>0; i--){
+            console.log(i);
+        }
+        */
