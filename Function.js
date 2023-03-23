@@ -1,4 +1,5 @@
-                            //  FUNCTIONS
+   /*        
+           //  FUNCTIONS
     
   function fizzBuzz (number){
     let i = number ;
@@ -17,3 +18,27 @@
       }
  
   fizzBuzz(2);
+
+  */
+
+                // AN ANONIMUS FUNCTIONS
+
+    let addNum = function(num1,num2){
+      let answer = num1 + num2;
+      console.log(answer);
+    }
+addNum(4 ,10)
+        //  Arrow Functions
+    
+   let AddNumber = (num1,num2) => {
+      let answer = num1 + num2;
+      console.log(answer);
+    }
+
+    AddNumber(2,5)
+
+            // Arrow function with one perameter
+
+
+      let checkAge = Age => Age;
+      console.log(checkAge(5));
