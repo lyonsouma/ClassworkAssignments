@@ -42,3 +42,9 @@ addNum(4 ,10)
 
       let checkAge = Age => Age;
       console.log(checkAge(5));
+
+  
+        //  ARRAY
+
+    let arry =[23,34,98,49,37,44];
+    console.log(arry[4]);
