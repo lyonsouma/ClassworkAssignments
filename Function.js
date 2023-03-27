@@ -20,7 +20,7 @@
   fizzBuzz(2);
 
   */
-
+/*
                 // AN ANONIMUS FUNCTIONS
 
     let addNum = function(num1,num2){
@@ -48,3 +48,32 @@ addNum(4 ,10)
 
     let arry =[23,34,98,49,37,44];
     console.log(arry[4]);
+
+    */
+
+    // Write a function that is going to print 1-20 and there after get the sum of the numbers between 1-20.
+     var sum =0;   
+    function digits(){
+          for(let i=1; i<= 20; i++){
+            sum =sum+i;
+          }
+          console.log(sum);
+         }
+         digits();
+
+    //  Write a function that returns the area of a circle when called and radius passed as a parameter.
+           let r;
+          function circleArea(r){
+            Area = (Math.PI * r * r);
+            console.log(Area);
+          }
+          circleArea(10);
+
+          // Write an arrow function that accepts a string as a parameter and converts the first letter of each word of the string to upper case.
+
+          const capitalizeWords = str =>{
+               let ans = str.split(" ").map;
+               console.log(ans);
+          } 
+               
+          console.log(capitalizeWords("hello everyone today"));
