@@ -70,20 +70,13 @@ addNum(4 ,10)
             Area = (Math.PI * r * r);
             console.log(Area);
           }
-          circleArea(10);
+          circleArea(10);*/
 
           // Write an arrow function that accepts a string as a parameter and converts the first letter of each word of the string to upper case.
+       
+   
 
-          const capitalizeWords = str =>{
-               let ans = str.split(" ").map;
-               console.log(ans);
-          } 
-               
-          console.log(capitalizeWords("hello everyone today"));
-
-
-*/
-
+/*
 let count=0;
 
 document.getElementById("decrease").onclick = function(){
@@ -97,3 +90,31 @@ document.getElementById("number").innerHTML =count=0;
 document.getElementById("increase").onclick = function(){
 document.getElementById("number").innerHTML =count+=1;
 }
+
+
+        // ARRAY
+  myArray = [15,20,12,11,55];
+  myArray.push(22,79,54,33,13);
+
+        //  using for loop
+  // for(let i = 0; i <= myArray.length; i++){
+  //   if(myArray[i] % 5 == 0){
+  //     console.log(myArray[i]);
+  //   }
+   
+  // }
+
+        // using a foreach loop
+        
+    myArray.forEach(element => {
+      if(element % 5 ==0){
+      console.log(element);                  
+    }
+    });
+   /*
+    function Arrayz(){
+      let arry = myArray;
+      console.log(arry);
+    }
+    Arrayz();
+    */
