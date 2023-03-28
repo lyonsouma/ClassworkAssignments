@@ -51,6 +51,9 @@ addNum(4 ,10)
 
     */
 
+
+  /*
+
     // Write a function that is going to print 1-20 and there after get the sum of the numbers between 1-20.
      var sum =0;   
     function digits(){
@@ -77,3 +80,20 @@ addNum(4 ,10)
           } 
                
           console.log(capitalizeWords("hello everyone today"));
+
+
+*/
+
+let count=0;
+
+document.getElementById("decrease").onclick = function(){
+document.getElementById("number").innerHTML =count-=1;
+}
+
+document.getElementById("reset").onclick = function(){
+document.getElementById("number").innerHTML =count=0;
+}
+
+document.getElementById("increase").onclick = function(){
+document.getElementById("number").innerHTML =count+=1;
+}
