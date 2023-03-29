@@ -54,28 +54,6 @@ addNum(4 ,10)
 
   /*
 
-    // Write a function that is going to print 1-20 and there after get the sum of the numbers between 1-20.
-     var sum =0;   
-    function digits(){
-          for(let i=1; i<= 20; i++){
-            sum =sum+i;
-          }
-          console.log(sum);
-         }
-         digits();
-
-    //  Write a function that returns the area of a circle when called and radius passed as a parameter.
-           let r;
-          function circleArea(r){
-            Area = (Math.PI * r * r);
-            console.log(Area);
-          }
-          circleArea(10);*/
-
-          // Write an arrow function that accepts a string as a parameter and converts the first letter of each word of the string to upper case.
-       
-   
-
 /*
 let count=0;
 
