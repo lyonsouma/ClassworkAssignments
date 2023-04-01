@@ -26,3 +26,28 @@ document.getElementById("click").onmouseout = function (){
     document.getElementById("square").onmouseout = function(){
         document.getElementById("square").style.backgroundColor =" rgb(130, 88, 37)";
     }
+
+            // CALCULATOR
+    
+            function calc(){
+                var a = parseInt(document.querySelector("#num1").value); 
+                var b = parseInt(document.querySelector("#num2").value);
+                var op= document.querySelector("#operator").value;
+                var calculate;
+          
+                if(op == "add"){
+                  calculate = a + b;
+                }
+                else if(op == "sub"){
+                  calculate = a - b;
+                }
+                else if(op == "mul"){
+                  calculate = a * b;
+                }
+                else if(op == "div"){
+                  calculate = a / b;
+                }
+                
+                  document.getElementById("ans").innerHTML =calculate;
+                
+           }
