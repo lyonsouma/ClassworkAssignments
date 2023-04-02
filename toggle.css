@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#nav-main{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+#nav-aside{
+ height: calc(100vh - 60px);
+ width: 60px;
+ background-color: grey;
+ position: fixed;
+ bottom: 0;
+ transition: all 0.7s ease-in-out;
+}
+
+#nav-aside ul{
+    padding-top: 15px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#nav-aside ul li{
+    list-style: none;
+    line-height: 80px;
+}
+
+#nav-aside ul li a , #nav-aside ul li span{
+    padding: 0 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+}
+#main{
+    background-color: brown;
+    height: 60px;
+    width: 50px;
+    cursor: pointer;
+}
+#line {
+color: whitesmoke;
+    width: 30px;
+    height: 10px;
+
+}
