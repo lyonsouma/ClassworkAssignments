@@ -1,33 +1,38 @@
                                 //  TIMING EVENT
-let intervalId;
+// let intervalId;
 
-function getCurrentTime(){
-    document.getElementById("timer").innerHTML = new Date;
-}
-getCurrentTime();
+// function getCurrentTime(){
+//     document.getElementById("timer").innerHTML = new Date;
+// }
+// getCurrentTime();
 
-function start(){
-intervalId =setInterval(getCurrentTime,1000)
-}
+// function start(){
+// intervalId =setInterval(getCurrentTime,1000)
+// }
 
-function stop(){
-    clearInterval(intervalId)
-}
+// function stop(){
+//     clearInterval(intervalId)
+// }
+
+var myIntervalId;
 
 function startTime(ControlId){
-var seconds = document.getElementById(ControlId).value;
+var getParameter = document.getElementById(ControlId);
+var seconds = getParameter.value;
+
 seconds = seconds - 1;
 
 if(seconds == 0){
-    seconds = "Done";
+    getParameter.value = "Done";
     return;
 }
 else{
-    seconds = seconds
+    getParameter.value = seconds;
 }
 myIntervalId =setTimeout(function(){startTime("num")}, 1000);
 }
-function stopTimer(){
+
+function stopTime(){
     clearTimeout(myIntervalId);
 }
 
