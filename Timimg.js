@@ -1,18 +1,21 @@
                                 //  TIMING EVENT
-// let intervalId;
+let intervalId;
 
-// function getCurrentTime(){
-//     document.getElementById("timer").innerHTML = new Date;
-// }
-// getCurrentTime();
+function getCurrentTime(){
+    document.getElementById("timer").innerHTML = new Date;
+}
+getCurrentTime();
 
-// function start(){
-// intervalId =setInterval(getCurrentTime,1000)
-// }
+function start(){
+intervalId =setInterval(getCurrentTime,1000)
+}
 
-// function stop(){
-//     clearInterval(intervalId)
-// }
+function stop(){
+    clearTimeout(intervalId)
+}
+
+
+            //    COUNTING DOWNWARDS
 
 var myIntervalId;
 
