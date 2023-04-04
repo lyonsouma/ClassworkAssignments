@@ -1,4 +1,5 @@
                                 //  TIMING EVENT
+/*
 let intervalId;
 
 function getCurrentTime(){
@@ -38,4 +39,17 @@ myIntervalId =setTimeout(function(){startTime("num")}, 1000);
 function stopTime(){
     clearTimeout(myIntervalId);
 }
+*/
+let count = 0;
+document.getElementById("decrease").onclick = function(){
+  document.getElementById("count").innerHTML = count -=1; 
 
+document.getElementById("reset").onclick = function(){
+  document.getElementById("count").innerHTML = count =0;
+
+  document.getElementById("increase").onclick = function(){
+    document.getElementById("count").innerHTML = count +=1;
+    }
+}
+
+}
