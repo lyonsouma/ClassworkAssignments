@@ -180,3 +180,17 @@ else if (Number3 > Number1 && Number3 > Number2){
     //   i++;
       
     // } while (i <= 5);
+
+
+    class student{
+      constructor(email,name){
+        this.Email=email;
+        this.Name=name;
+      }
+      printDetails(){
+        console.log(this.Email,this.Name)
+      }
+    
+    }
+    let student1=new student("edwin54@gmail.com","edwin")
+    student1.printDetails();
