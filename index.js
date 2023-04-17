@@ -192,5 +192,26 @@ else if (Number3 > Number1 && Number3 > Number2){
       }
     
     }
-    let student1=new student("edwin54@gmail.com","edwin")
+    let student2=new student("edwin54@gmail.com","edwin")
     student1.printDetails();
+
+    class student{
+      #firstName;
+      #secondName;
+      constructor(first,last){
+        this.#firstName=first;
+        this.#secondName=last;
+      }
+      set addFname(val){
+        this.#firstName=val;
+      }
+      set addLast(val){
+        this.#secondName=val
+      }
+      get fullName(){
+       console.log( `your full name is ${this.#firstName} ${this.#secondName}`);
+      }
+    }
+    let student1 = new student("edwin","ngila");
+    student1.addFname="kimani";
+    student1.fullName;
