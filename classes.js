@@ -93,7 +93,7 @@
 
     var doc = new Person('Lyons', 21 , 'male', 'CEO' , 300000)
     console.log(doc);
-    */
+    
 
                   // ABSTRACTION
    class Employee{
@@ -118,3 +118,4 @@
 
    Emp1 = new Employee('John', 21 , 450000);
    console.log(Emp1);
+   */
