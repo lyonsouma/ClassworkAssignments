@@ -6,6 +6,8 @@ const erroHandle = () => {
      name = "lyons";
     }catch(error){
       console.error(error)
+    }finally{
+        
     }
 }
 
